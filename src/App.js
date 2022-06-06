@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import Homepage from "./Pages/Homepage";
 
 function App() {
+  // const lower = () => {
+  //   if (x === 12) {
+  //     console.log("warmer1");
+  //   } else if (x >= 0 && x <= 10) {
+  //     console.log("warmer");
+  //   } else if (x >= 10 && x <= 20) {
+  //     console.log("warmers");
+  //   } else {
+  //     console.log("nothing");
+  //   }
+  // };
+  // const x = 12;
+  // if (x >= 10 && x <= 20) {
+  //   lower();
+  // } else {
+  //   console.log("well");
+  // }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Homepage />
     </div>
   );
 }
